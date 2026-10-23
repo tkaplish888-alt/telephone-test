@@ -1,0 +1,624 @@
+{
+  "brand": {
+    "name": "tonishqa.",
+    "wordmark": "the lowercase word 'tonishqa' followed by a period, set in Bricolage Grotesque, no icon",
+    "font": "Bricolage Grotesque for headlines and IBM Plex Sans for body text",
+    "colors": {
+      "background": "#E7E6DC",
+      "accent": "#E6B04A",
+      "text": "#2D322F"
+    },
+    "headline": "New case study: the AI visibility audit",
+    "tagline": "Building marketing systems anchored in real customer behavior.",
+    "post": "A square Instagram post announcing a new case study"
+  },
+  "mock": false,
+  "image_model": "gpt-image-1",
+  "vision_model": "claude-sonnet-5-5",
+  "runs": [
+    [
+      {
+        "round": 1,
+        "image": "runs/run1/round1.png",
+        "prompt": "A square Instagram post announcing a new case study for the brand tonishqa.. Use exactly these brand colors: background #E7E6DC, accent #E6B04A, text #2D322F. Set all text in the font Bricolage Grotesque for headlines and IBM Plex Sans for body text. Include the brand's wordmark: the lowercase word 'tonishqa' followed by a period, set in Bricolage Grotesque, no icon. Headline: \"New case study: the AI visibility audit\". Tagline: \"Building marketing systems anchored in real customer behavior.\". Clean, premium, on-brand.",
+        "heard": {
+          "description": "Square (1:1, approx. 1024x1024) social media post with a flat, solid warm cream/off-white background, no gradients, textures, images or icons. All content is left-aligned on a consistent left margin of about 88px, with roughly 85-90px of padding on the right. Vertical stack, top to bottom: (1) At the top (baseline around y=165), a lowercase wordmark reading 'tonishqa.' in a bold/semi-bold geometric-grotesque sans-serif in near-black navy, about 70px tall x-height-wise (cap/ascender height ~80px), with a period at the end acting as part of the logo. There is no symbol or icon, only the text wordmark. (2) Below it, a large headline in three lines, left-aligned, medium/semi-bold weight, tight leading (~125px line spacing), near-black navy, font size around 100-110px: 'New case study:' / 'the AI visibility' / 'audit'. The headline occupies roughly y=265 to y=580. (3) Beneath the headline, a solid flat mustard/amber-yellow horizontal rule/bar, sharp square corners, spanning from x\u224888 to x\u2248938 (about 850px wide) and about 52px thick, located at y\u2248630-682. (4) Below the bar, a two-line subtitle in a regular-weight (lighter than the headline) sans-serif in near-black navy, about 52px size, with line spacing around 65px, left-aligned: 'Building marketing systems' / 'anchored in real customer behavior.' This sits at roughly y=735-855. The bottom ~170px of the canvas is empty cream space. Overall style: minimal, editorial, high-contrast dark text on warm neutral background with a single yellow accent bar.",
+          "font_guess": "Clean grotesque/neo-grotesque sans-serif similar to DM Sans, Instrument Sans, or Basis Grotesque/Founders Grotesk; wordmark and headline in Medium/SemiBold weight, subtitle in Regular weight. Lowercase 'tonishqa.' wordmark in same family at semibold.",
+          "hex_guesses": [
+            "#F1EBE0",
+            "#1A1D2B",
+            "#EEAE37"
+          ]
+        },
+        "drift": {
+          "colors": {
+            "background": {
+              "brand": "#E7E6DC",
+              "closest": "#EFEADF",
+              "delta_e": 2.2
+            },
+            "accent": {
+              "brand": "#E6B04A",
+              "closest": "#E1BE7C",
+              "delta_e": 7.3
+            },
+            "text": {
+              "brand": "#2D322F",
+              "closest": "#3D3E44",
+              "delta_e": 8.2
+            }
+          },
+          "mean_delta_e": 5.9,
+          "main_colors": [
+            {
+              "hex": "#F1EBE0",
+              "share": 0.234
+            },
+            {
+              "hex": "#F1EBDF",
+              "share": 0.197
+            },
+            {
+              "hex": "#F0EADF",
+              "share": 0.12
+            },
+            {
+              "hex": "#F1EADF",
+              "share": 0.117
+            },
+            {
+              "hex": "#F2EBE0",
+              "share": 0.089
+            },
+            {
+              "hex": "#3D3E44",
+              "share": 0.072
+            }
+          ]
+        }
+      },
+      {
+        "round": 2,
+        "image": "runs/run1/round2.png",
+        "prompt": "Create this social media post exactly as described: Square (1:1, approx. 1024x1024) social media post with a flat, solid warm cream/off-white background, no gradients, textures, images or icons. All content is left-aligned on a consistent left margin of about 88px, with roughly 85-90px of padding on the right. Vertical stack, top to bottom: (1) At the top (baseline around y=165), a lowercase wordmark reading 'tonishqa.' in a bold/semi-bold geometric-grotesque sans-serif in near-black navy, about 70px tall x-height-wise (cap/ascender height ~80px), with a period at the end acting as part of the logo. There is no symbol or icon, only the text wordmark. (2) Below it, a large headline in three lines, left-aligned, medium/semi-bold weight, tight leading (~125px line spacing), near-black navy, font size around 100-110px: 'New case study:' / 'the AI visibility' / 'audit'. The headline occupies roughly y=265 to y=580. (3) Beneath the headline, a solid flat mustard/amber-yellow horizontal rule/bar, sharp square corners, spanning from x\u224888 to x\u2248938 (about 850px wide) and about 52px thick, located at y\u2248630-682. (4) Below the bar, a two-line subtitle in a regular-weight (lighter than the headline) sans-serif in near-black navy, about 52px size, with line spacing around 65px, left-aligned: 'Building marketing systems' / 'anchored in real customer behavior.' This sits at roughly y=735-855. The bottom ~170px of the canvas is empty cream space. Overall style: minimal, editorial, high-contrast dark text on warm neutral background with a single yellow accent bar.",
+        "heard": {
+          "description": "Square (1:1, approx. 1024x1024) social media post with a flat, solid warm cream background and no imagery, gradients, textures or icons. All content is left-aligned on a shared left margin of about 88px (about 8.5% of the width), with a right margin of about 85px. The layout is a vertical stack, top to bottom. (1) Wordmark/logo at top-left, around y=105-195: the lowercase text 'tonishqa.' in bold dark navy geometric sans-serif, with a period at the end. It is about 100px tall with a roughly 70px x-height and tight letter spacing. It is a plain typographic wordmark with no icon. (2) Headline at about y=265-590, three lines, left-aligned, in bold/semibold dark navy sans-serif at about 112px with tight leading (about 120px line height). Line 1: 'New case study:'. Line 2: 'the AI visibility'. Line 3: 'audit'. (3) A flat mustard-yellow horizontal rectangle (accent divider bar) at about y=622-688, from x=86 to x=938 (about 852px wide by 66px tall), with sharp square corners and no outline. (4) Subtitle at about y=735-855, two lines, left-aligned, in regular-weight dark navy sans-serif at about 52px with a line height of about 66px. Line 1: 'Building marketing systems'. Line 2: 'anchored in real customer behavior'. The bottom margin below the subtitle is about 170px of empty cream space. The overall style is minimal and editorial, with high contrast between the dark navy text and the cream background, and one yellow accent. Full text in reading order: 'tonishqa.' / 'New case study: the AI visibility audit' / 'Building marketing systems anchored in real customer behavior'.",
+          "font_guess": "Clean grotesque/geometric sans-serif similar to Inter or Plus Jakarta Sans (the wordmark and headline look like Inter Bold/SemiBold with tight tracking, close to Satoshi or General Sans). The subtitle is the same family in Regular weight.",
+          "hex_guesses": [
+            "#FDF5E8",
+            "#0B1B33",
+            "#F2BB3C"
+          ]
+        },
+        "drift": {
+          "colors": {
+            "background": {
+              "brand": "#E7E6DC",
+              "closest": "#F0E9D8",
+              "delta_e": 3.6
+            },
+            "accent": {
+              "brand": "#E6B04A",
+              "closest": "#EBBF55",
+              "delta_e": 4.6
+            },
+            "text": {
+              "brand": "#2D322F",
+              "closest": "#031427",
+              "delta_e": 16.1
+            }
+          },
+          "mean_delta_e": 8.1,
+          "main_colors": [
+            {
+              "hex": "#FDF6E8",
+              "share": 0.602
+            },
+            {
+              "hex": "#031427",
+              "share": 0.07
+            },
+            {
+              "hex": "#FEF6E8",
+              "share": 0.054
+            },
+            {
+              "hex": "#EBBF55",
+              "share": 0.052
+            },
+            {
+              "hex": "#FDF5E8",
+              "share": 0.039
+            },
+            {
+              "hex": "#FFFDF0",
+              "share": 0.039
+            }
+          ]
+        }
+      },
+      {
+        "round": 3,
+        "image": "runs/run1/round3.png",
+        "prompt": "Create this social media post exactly as described: Square (1:1, approx. 1024x1024) social media post with a flat, solid warm cream background and no imagery, gradients, textures or icons. All content is left-aligned on a shared left margin of about 88px (about 8.5% of the width), with a right margin of about 85px. The layout is a vertical stack, top to bottom. (1) Wordmark/logo at top-left, around y=105-195: the lowercase text 'tonishqa.' in bold dark navy geometric sans-serif, with a period at the end. It is about 100px tall with a roughly 70px x-height and tight letter spacing. It is a plain typographic wordmark with no icon. (2) Headline at about y=265-590, three lines, left-aligned, in bold/semibold dark navy sans-serif at about 112px with tight leading (about 120px line height). Line 1: 'New case study:'. Line 2: 'the AI visibility'. Line 3: 'audit'. (3) A flat mustard-yellow horizontal rectangle (accent divider bar) at about y=622-688, from x=86 to x=938 (about 852px wide by 66px tall), with sharp square corners and no outline. (4) Subtitle at about y=735-855, two lines, left-aligned, in regular-weight dark navy sans-serif at about 52px with a line height of about 66px. Line 1: 'Building marketing systems'. Line 2: 'anchored in real customer behavior'. The bottom margin below the subtitle is about 170px of empty cream space. The overall style is minimal and editorial, with high contrast between the dark navy text and the cream background, and one yellow accent. Full text in reading order: 'tonishqa.' / 'New case study: the AI visibility audit' / 'Building marketing systems anchored in real customer behavior'.",
+        "heard": {
+          "description": "Square (1:1, approx. 1024x1024) social media post with a flat, solid warm cream background and no imagery, gradients, or textures. All content is left-aligned along a single left margin of roughly 80px, with about 80px of margin at the top and generous empty space at the bottom. Elements from top to bottom: (1) Wordmark at top-left, 'tonishqa.' in lowercase, bold sans-serif, dark navy, with a period at the end; it is roughly 70-80px tall and sits at about y=90-155. There is no icon, just the typographic wordmark. (2) Large headline in extra-bold/bold dark navy sans-serif, tight line spacing, three lines, left-aligned, about 110px type size, text reading exactly: 'New case study:' / 'the AI visibility' / 'audit'. Line breaks occur after 'study:' and after 'visibility'. The headline spans from about y=235 to y=540. (3) A solid mustard/golden-yellow horizontal bar (flat rectangle, no rounded corners, no outline) running from the left margin (x\u224880) to the right margin (x\u2248945), about 50px thick, at y\u2248592-642. It acts as a divider between the headline and the subtext. (4) Subtext in regular weight (not bold) dark navy sans-serif, about 55-60px, left-aligned, three lines with relaxed line spacing, reading exactly: 'Building marketing systems' / 'anchored in real customer' / 'behavior'. It spans from about y=690 to y=890. Below that is about 130px of empty cream space. Overall style: minimal, editorial, high contrast navy on cream with a single yellow accent. No other text, logos, handles, or decorations.",
+          "font_guess": "Geometric/grotesque sans-serif similar to Bricolage Grotesque, Plus Jakarta Sans, or Instrument Sans. The headline and wordmark are bold/extra-bold with tight tracking and large round letterforms, with a double-story 'a' and a single-story 'y' with straight tail; the subtext is the same family in regular weight. Close free alternatives: 'Plus Jakarta Sans' Bold/Regular or 'DM Sans' Bold/Regular.",
+          "hex_guesses": [
+            "#FDF3E1",
+            "#0B1B3A",
+            "#E8A92C"
+          ]
+        },
+        "drift": {
+          "colors": {
+            "background": {
+              "brand": "#E7E6DC",
+              "closest": "#FCF5E3",
+              "delta_e": 4.9
+            },
+            "accent": {
+              "brand": "#E6B04A",
+              "closest": "#DAAA43",
+              "delta_e": 2.5
+            },
+            "text": {
+              "brand": "#2D322F",
+              "closest": "#49505B",
+              "delta_e": 13.2
+            }
+          },
+          "mean_delta_e": 6.9,
+          "main_colors": [
+            {
+              "hex": "#FEF5E1",
+              "share": 0.561
+            },
+            {
+              "hex": "#FEF5E2",
+              "share": 0.138
+            },
+            {
+              "hex": "#010E28",
+              "share": 0.062
+            },
+            {
+              "hex": "#FFFAE7",
+              "share": 0.047
+            },
+            {
+              "hex": "#DAAA43",
+              "share": 0.046
+            },
+            {
+              "hex": "#49505B",
+              "share": 0.034
+            }
+          ]
+        }
+      },
+      {
+        "round": 4,
+        "image": "runs/run1/round4.png",
+        "prompt": "Create this social media post exactly as described: Square (1:1, approx. 1024x1024) social media post with a flat, solid warm cream background and no imagery, gradients, or textures. All content is left-aligned along a single left margin of roughly 80px, with about 80px of margin at the top and generous empty space at the bottom. Elements from top to bottom: (1) Wordmark at top-left, 'tonishqa.' in lowercase, bold sans-serif, dark navy, with a period at the end; it is roughly 70-80px tall and sits at about y=90-155. There is no icon, just the typographic wordmark. (2) Large headline in extra-bold/bold dark navy sans-serif, tight line spacing, three lines, left-aligned, about 110px type size, text reading exactly: 'New case study:' / 'the AI visibility' / 'audit'. Line breaks occur after 'study:' and after 'visibility'. The headline spans from about y=235 to y=540. (3) A solid mustard/golden-yellow horizontal bar (flat rectangle, no rounded corners, no outline) running from the left margin (x\u224880) to the right margin (x\u2248945), about 50px thick, at y\u2248592-642. It acts as a divider between the headline and the subtext. (4) Subtext in regular weight (not bold) dark navy sans-serif, about 55-60px, left-aligned, three lines with relaxed line spacing, reading exactly: 'Building marketing systems' / 'anchored in real customer' / 'behavior'. It spans from about y=690 to y=890. Below that is about 130px of empty cream space. Overall style: minimal, editorial, high contrast navy on cream with a single yellow accent. No other text, logos, handles, or decorations.",
+        "heard": {
+          "description": "Square (1:1, approx. 1024x1024 px) social media post with a flat, solid warm cream background and no imagery, gradients, textures, or icons. All content is left-aligned along a single left margin of about 90px, with roughly 90px of margin on the right. Elements stack vertically from top to bottom. (1) Wordmark at top-left, around y=90-155: 'tonishqa.' in lowercase, bold dark navy, with a period at the end. It is the logo and has no icon. Cap height is small relative to the headline (x-height about 40px). (2) Headline, starting around y=235 and ending around y=535, set across three lines in very large, heavy/extra-bold dark navy sans-serif type with tight letter spacing and tight leading: 'New case study:' / 'the AI visibility' / 'audit'. Each line is about 120px tall. The text is sentence case and the colon follows 'study'. (3) Accent bar: a solid flat mustard/golden-yellow rectangle with sharp corners and no rounding. It spans from the left margin (x\u224890) to the right margin (x\u2248935), is about 65px tall, and sits at about y=580-645. (4) Subheadline below the bar, around y=695-900, in three lines of regular/medium-weight dark navy sans-serif, much smaller than the headline (about 60-65px font size), with tight leading: 'Building marketing systems' / 'anchored in real customer' / 'behavior'. The text is sentence case with no end punctuation. There is generous empty space at the bottom (about 100px). The overall look is minimal, editorial, and high-contrast, with a two-color palette of navy and yellow on cream.",
+          "font_guess": "Geometric/grotesque sans-serif similar to Plus Jakarta Sans, Outfit, or DM Sans. The headline and wordmark are in ExtraBold/Bold (700-800) weight with tight tracking, and the subheadline is in Regular/Medium (400-500).",
+          "hex_guesses": [
+            "#FDF3DE",
+            "#0B1B2E",
+            "#F7B718"
+          ]
+        },
+        "drift": {
+          "colors": {
+            "background": {
+              "brand": "#E7E6DC",
+              "closest": "#FCF4DD",
+              "delta_e": 6.1
+            },
+            "accent": {
+              "brand": "#E6B04A",
+              "closest": "#EAB42E",
+              "delta_e": 3.7
+            },
+            "text": {
+              "brand": "#2D322F",
+              "closest": "#454F57",
+              "delta_e": 11.6
+            }
+          },
+          "mean_delta_e": 7.1,
+          "main_colors": [
+            {
+              "hex": "#FDF4DC",
+              "share": 0.521
+            },
+            {
+              "hex": "#FDF4DD",
+              "share": 0.095
+            },
+            {
+              "hex": "#011427",
+              "share": 0.074
+            },
+            {
+              "hex": "#FEF4DC",
+              "share": 0.059
+            },
+            {
+              "hex": "#FDF5DD",
+              "share": 0.053
+            },
+            {
+              "hex": "#EAB42E",
+              "share": 0.052
+            }
+          ]
+        }
+      },
+      {
+        "round": 5,
+        "image": "runs/run1/round5.png",
+        "prompt": "Create this social media post exactly as described: Square (1:1, approx. 1024x1024 px) social media post with a flat, solid warm cream background and no imagery, gradients, textures, or icons. All content is left-aligned along a single left margin of about 90px, with roughly 90px of margin on the right. Elements stack vertically from top to bottom. (1) Wordmark at top-left, around y=90-155: 'tonishqa.' in lowercase, bold dark navy, with a period at the end. It is the logo and has no icon. Cap height is small relative to the headline (x-height about 40px). (2) Headline, starting around y=235 and ending around y=535, set across three lines in very large, heavy/extra-bold dark navy sans-serif type with tight letter spacing and tight leading: 'New case study:' / 'the AI visibility' / 'audit'. Each line is about 120px tall. The text is sentence case and the colon follows 'study'. (3) Accent bar: a solid flat mustard/golden-yellow rectangle with sharp corners and no rounding. It spans from the left margin (x\u224890) to the right margin (x\u2248935), is about 65px tall, and sits at about y=580-645. (4) Subheadline below the bar, around y=695-900, in three lines of regular/medium-weight dark navy sans-serif, much smaller than the headline (about 60-65px font size), with tight leading: 'Building marketing systems' / 'anchored in real customer' / 'behavior'. The text is sentence case with no end punctuation. There is generous empty space at the bottom (about 100px). The overall look is minimal, editorial, and high-contrast, with a two-color palette of navy and yellow on cream.",
+        "heard": {
+          "description": "Square (1:1, approx. 1024x1024px) social media post with a flat, solid cream background and no imagery, gradients, or textures. All content is left-aligned on a consistent left margin of about 75px, with roughly 75px of padding at the right. The layout is a vertical stack, top to bottom. (1) Wordmark at top-left, about y=80-140: the lowercase text 'tonishqa.' in bold dark navy geometric sans-serif, with a period at the end. It is about 50px tall at x-height scale and is the smallest of the bold text elements. This is a text-only wordmark with no icon. (2) Headline, starting about y=200 and ending about y=545: 'New case study: the AI visibility audit' in very large, heavy/extra-bold dark navy sans-serif with tight letter-spacing and tight leading. It breaks across three lines: 'New case study:' / 'the AI visibility' / 'audit'. Cap height is roughly 100px and the type is sentence case. (3) Accent bar, about y=590-647: a solid horizontal mustard-yellow rectangle with square corners, spanning from the left margin (x\u224875) to the right margin (x\u2248950), about 57px tall. (4) Subtext, about y=690-900: 'Building marketing systems anchored in real customer behavior' in regular-weight dark navy sans-serif, about 60-65px, left-aligned, in sentence case with no period. It breaks across three lines: 'Building marketing systems' / 'anchored in real customer' / 'behavior'. Line spacing is about 1.3. Bottom margin is about 120px of empty cream space. The overall look is minimal, editorial, and high-contrast, with a two-color palette (navy text, yellow accent) on cream.",
+          "font_guess": "Geometric/neo-grotesque sans-serif similar to Plus Jakarta Sans or Inter Display. The headline and wordmark are in ExtraBold/Bold (700-800) with tight tracking, and the subtext is in Regular (400). Close alternatives: Manrope, DM Sans, Satoshi, or General Sans.",
+          "hex_guesses": [
+            "#FCF4E3",
+            "#0B1B3F",
+            "#EFC140"
+          ]
+        },
+        "drift": {
+          "colors": {
+            "background": {
+              "brand": "#E7E6DC",
+              "closest": "#FAF4E6",
+              "delta_e": 4.0
+            },
+            "accent": {
+              "brand": "#E6B04A",
+              "closest": "#DBC587",
+              "delta_e": 10.7
+            },
+            "text": {
+              "brand": "#2D322F",
+              "closest": "#1C2C46",
+              "delta_e": 15.5
+            }
+          },
+          "mean_delta_e": 10.1,
+          "main_colors": [
+            {
+              "hex": "#FDF5E4",
+              "share": 0.205
+            },
+            {
+              "hex": "#FCF4E3",
+              "share": 0.153
+            },
+            {
+              "hex": "#FCF5E4",
+              "share": 0.123
+            },
+            {
+              "hex": "#1C2C46",
+              "share": 0.102
+            },
+            {
+              "hex": "#FCF4E4",
+              "share": 0.088
+            },
+            {
+              "hex": "#FCF5E3",
+              "share": 0.086
+            }
+          ]
+        }
+      }
+    ],
+    [
+      {
+        "round": 1,
+        "image": "runs/run2/round1.png",
+        "prompt": "A square Instagram post announcing a new case study for the brand tonishqa.. Use exactly these brand colors: background #E7E6DC, accent #E6B04A, text #2D322F. Set all text in the font Bricolage Grotesque for headlines and IBM Plex Sans for body text. Include the brand's wordmark: the lowercase word 'tonishqa' followed by a period, set in Bricolage Grotesque, no icon. Headline: \"New case study: the AI visibility audit\". Tagline: \"Building marketing systems anchored in real customer behavior.\". Clean, premium, on-brand.",
+        "heard": {
+          "description": "Square (1:1, approx. 1024x1024) social media post with a flat, solid warm cream background and no gradients, textures, photos, or icons. All content is left-aligned on a shared left margin of about 90px (about 9% of the width), with roughly 90px of right margin. The layout is a vertical stack of four elements.\n\n1) Headline, top. Large, bold, dark teal-charcoal sans-serif text on three lines, sentence case, word for word: 'New case study:' / 'the AI visibility' / 'audit'. Cap height is roughly 85px and line spacing is tight, at about 1.15x. The first line starts at about y=130 and the last line ends at about y=455. The text is heavy-semibold weight, with tight, slightly negative letter-spacing.\n\n2) Accent bar, at about y=507 to y=562. A solid, flat, mustard/golden-yellow rectangle with square corners, no outline or shadow. It runs from the left margin (x\u224890) to about x\u2248935, so it is about 845px wide and about 55px tall.\n\n3) Subtitle, below the bar. Regular-weight, dark teal-charcoal sans-serif text on two lines, word for word: 'Building marketing systems' / 'anchored in real customer behavior.' The size is much smaller than the headline, with x-height around 30px, or about 52px font size. It spans from x\u224890 to about x\u2248980 on the second line. Line spacing is about 1.25x. It sits at about y=610 to y=730.\n\n4) Wordmark/logo, bottom left, at about y=835 to y=920. The lowercase text 'tonishqa.' in a bold, dark teal-charcoal geometric/grotesque sans-serif, ending in a period (full stop). It is larger than the subtitle but smaller than the headline, at about 80px. It has no icon or symbol, only the text wordmark. The bottom margin is about 100px.\n\nOverall style: minimal, editorial, and brand-consistent, with a two-color text and accent palette on a cream field, generous whitespace, and strong left alignment.",
+          "font_guess": "A neo-grotesque / geometric sans-serif similar to 'Cabinet Grotesk', 'Satoshi', 'General Sans', or 'Hanken Grotesk'. Headline and wordmark are in SemiBold/Bold, and the subtitle is in Regular. Close free alternatives are 'DM Sans' or 'Manrope'.",
+          "hex_guesses": [
+            "#F9F1E4",
+            "#1F3238",
+            "#EFB73E"
+          ]
+        },
+        "drift": {
+          "colors": {
+            "background": {
+              "brand": "#E7E6DC",
+              "closest": "#EFEADF",
+              "delta_e": 2.2
+            },
+            "accent": {
+              "brand": "#E6B04A",
+              "closest": "#89805F",
+              "delta_e": 23.8
+            },
+            "text": {
+              "brand": "#2D322F",
+              "closest": "#89805F",
+              "delta_e": 30.9
+            }
+          },
+          "mean_delta_e": 19.0,
+          "main_colors": [
+            {
+              "hex": "#F8F2E4",
+              "share": 0.367
+            },
+            {
+              "hex": "#F9F2E4",
+              "share": 0.191
+            },
+            {
+              "hex": "#F8F1E4",
+              "share": 0.16
+            },
+            {
+              "hex": "#89805F",
+              "share": 0.138
+            },
+            {
+              "hex": "#FDF7EA",
+              "share": 0.05
+            },
+            {
+              "hex": "#EFEADF",
+              "share": 0.038
+            }
+          ]
+        }
+      },
+      {
+        "round": 2,
+        "image": "runs/run2/round2.png",
+        "prompt": "Create this social media post exactly as described: Square (1:1, approx. 1024x1024) social media post with a flat, solid warm cream background and no gradients, textures, photos, or icons. All content is left-aligned on a shared left margin of about 90px (about 9% of the width), with roughly 90px of right margin. The layout is a vertical stack of four elements.\n\n1) Headline, top. Large, bold, dark teal-charcoal sans-serif text on three lines, sentence case, word for word: 'New case study:' / 'the AI visibility' / 'audit'. Cap height is roughly 85px and line spacing is tight, at about 1.15x. The first line starts at about y=130 and the last line ends at about y=455. The text is heavy-semibold weight, with tight, slightly negative letter-spacing.\n\n2) Accent bar, at about y=507 to y=562. A solid, flat, mustard/golden-yellow rectangle with square corners, no outline or shadow. It runs from the left margin (x\u224890) to about x\u2248935, so it is about 845px wide and about 55px tall.\n\n3) Subtitle, below the bar. Regular-weight, dark teal-charcoal sans-serif text on two lines, word for word: 'Building marketing systems' / 'anchored in real customer behavior.' The size is much smaller than the headline, with x-height around 30px, or about 52px font size. It spans from x\u224890 to about x\u2248980 on the second line. Line spacing is about 1.25x. It sits at about y=610 to y=730.\n\n4) Wordmark/logo, bottom left, at about y=835 to y=920. The lowercase text 'tonishqa.' in a bold, dark teal-charcoal geometric/grotesque sans-serif, ending in a period (full stop). It is larger than the subtitle but smaller than the headline, at about 80px. It has no icon or symbol, only the text wordmark. The bottom margin is about 100px.\n\nOverall style: minimal, editorial, and brand-consistent, with a two-color text and accent palette on a cream field, generous whitespace, and strong left alignment.",
+        "heard": {
+          "description": "Square (1:1, approx. 1024x1024) social media post with a flat, solid warm cream background and no imagery, gradients, textures or icons. All content is left-aligned on a consistent left margin of about 88px, with a right margin of about 88px (the yellow bar ends at about x=936). Vertical stack from top to bottom: (1) A large, bold headline set in three lines, in dark teal, tightly leaded, with the text exactly: 'New case study:' / 'the AI visibility' / 'audit'. The headline starts around y=95 and ends around y=430, with a cap height of roughly 90px (font size about 120px). Only the first word 'New' and the 'AI' are capitalized; the rest is sentence case, and the colon follows 'study'. (2) A solid mustard/golden-yellow horizontal rectangle (a divider bar) with sharp square corners, spanning from x\u224888 to x\u2248936 (about 848px wide) and from y\u2248477 to y\u2248553 (about 76px tall). (3) A subheadline in regular weight (not bold), dark teal, in two lines, about 54px font size, with the exact text: 'Building marketing systems' / 'anchored in real customer behavior'. It sits at about y=595 to y=720. (4) At the bottom left, around y=830 to y=930, the wordmark/logo 'tonishqa.' in lowercase, bold, dark teal, about 90px font size, ending in a period (full stop) as part of the wordmark. The wordmark is the same typeface and teal color as the headline, with no icon or symbol alongside it. There is generous empty space at the bottom (about 95px) and to the right of the wordmark. The overall style is minimal, editorial and modern, with a two-tone palette (teal + mustard) on cream.",
+          "font_guess": "A clean geometric/neo-grotesque sans-serif resembling Plus Jakarta Sans or Instrument Sans (bold weight for the headline and wordmark, regular weight for the subheadline). Similar alternatives: DM Sans, Manrope, or Satoshi.",
+          "hex_guesses": [
+            "#FDF2E0",
+            "#0B4552",
+            "#E8B23C"
+          ]
+        },
+        "drift": {
+          "colors": {
+            "background": {
+              "brand": "#E7E6DC",
+              "closest": "#FBF3E3",
+              "delta_e": 4.6
+            },
+            "accent": {
+              "brand": "#E6B04A",
+              "closest": "#DFC279",
+              "delta_e": 8.1
+            },
+            "text": {
+              "brand": "#2D322F",
+              "closest": "#26565E",
+              "delta_e": 16.1
+            }
+          },
+          "mean_delta_e": 9.6,
+          "main_colors": [
+            {
+              "hex": "#FFF3E1",
+              "share": 0.204
+            },
+            {
+              "hex": "#FEF3E1",
+              "share": 0.204
+            },
+            {
+              "hex": "#FFF3E2",
+              "share": 0.127
+            },
+            {
+              "hex": "#FFF4E2",
+              "share": 0.112
+            },
+            {
+              "hex": "#26565E",
+              "share": 0.103
+            },
+            {
+              "hex": "#DFC279",
+              "share": 0.089
+            }
+          ]
+        }
+      },
+      {
+        "round": 3,
+        "image": "runs/run2/round3.png",
+        "prompt": "Create this social media post exactly as described: Square (1:1, approx. 1024x1024) social media post with a flat, solid warm cream background and no imagery, gradients, textures or icons. All content is left-aligned on a consistent left margin of about 88px, with a right margin of about 88px (the yellow bar ends at about x=936). Vertical stack from top to bottom: (1) A large, bold headline set in three lines, in dark teal, tightly leaded, with the text exactly: 'New case study:' / 'the AI visibility' / 'audit'. The headline starts around y=95 and ends around y=430, with a cap height of roughly 90px (font size about 120px). Only the first word 'New' and the 'AI' are capitalized; the rest is sentence case, and the colon follows 'study'. (2) A solid mustard/golden-yellow horizontal rectangle (a divider bar) with sharp square corners, spanning from x\u224888 to x\u2248936 (about 848px wide) and from y\u2248477 to y\u2248553 (about 76px tall). (3) A subheadline in regular weight (not bold), dark teal, in two lines, about 54px font size, with the exact text: 'Building marketing systems' / 'anchored in real customer behavior'. It sits at about y=595 to y=720. (4) At the bottom left, around y=830 to y=930, the wordmark/logo 'tonishqa.' in lowercase, bold, dark teal, about 90px font size, ending in a period (full stop) as part of the wordmark. The wordmark is the same typeface and teal color as the headline, with no icon or symbol alongside it. There is generous empty space at the bottom (about 95px) and to the right of the wordmark. The overall style is minimal, editorial and modern, with a two-tone palette (teal + mustard) on cream.",
+        "heard": {
+          "description": "Square (1:1, approx. 1024x1024) text-only social media post on a flat, solid warm cream background with no gradients, textures, images or icons. Everything is left-aligned to a consistent left margin of about 85px, with a matching right margin of about 85px (the yellow bar ends near x=938). Layout from top to bottom: (1) A large, heavy-weight headline in dark teal, set in sentence case over three lines with tight leading: 'New case study:' / 'the AI visibility' / 'audit'. It starts about 95px from the top, and the cap height is roughly 100px. (2) Below the headline, with a gap of about 50px, is a solid mustard-yellow horizontal rectangular bar. It spans the full content width (x\u224885 to x\u2248938), is about 70px tall (y\u2248486 to y\u2248555), and has square corners. (3) Below the bar, a subheading in the same dark teal in a regular/light weight at about half the headline size, set over three lines: 'Building marketing systems' / 'anchored in real customer' / 'behavior'. (4) At the bottom left, a bold lowercase wordmark in dark teal: 'tonishqa.' with a period at the end. It is set in the same bold geometric grotesque as the headline, a bit smaller than the headline (x-height about 45px), and its baseline sits about 75px above the bottom edge. There is no separate logo mark, just the typographic wordmark. All text reads exactly: 'New case study: the AI visibility audit' \u2014 'Building marketing systems anchored in real customer behavior' \u2014 'tonishqa.' The overall feel is clean, minimal, editorial and high-contrast, with generous negative space and a limited three-color palette (cream, dark teal, mustard yellow).",
+          "font_guess": "Clean modern grotesque sans-serif with slightly geometric forms and a double-story 'a' and 'y' with a straight tail, similar to Instrument Sans, Hanken Grotesk, Aeonik or Neue Montreal. The headline and wordmark use a Bold/Semibold weight with tight tracking. The subheading uses Regular weight.",
+          "hex_guesses": [
+            "#FCF3E3",
+            "#033F4D",
+            "#F1C63F"
+          ]
+        },
+        "drift": {
+          "colors": {
+            "background": {
+              "brand": "#E7E6DC",
+              "closest": "#F6EFE1",
+              "delta_e": 3.6
+            },
+            "accent": {
+              "brand": "#E6B04A",
+              "closest": "#ECC957",
+              "delta_e": 8.1
+            },
+            "text": {
+              "brand": "#2D322F",
+              "closest": "#043944",
+              "delta_e": 12.4
+            }
+          },
+          "mean_delta_e": 8.0,
+          "main_colors": [
+            {
+              "hex": "#FCF4E4",
+              "share": 0.376
+            },
+            {
+              "hex": "#FCF4E5",
+              "share": 0.315
+            },
+            {
+              "hex": "#043944",
+              "share": 0.077
+            },
+            {
+              "hex": "#ECC957",
+              "share": 0.059
+            },
+            {
+              "hex": "#F6EFE1",
+              "share": 0.041
+            },
+            {
+              "hex": "#FFFBEC",
+              "share": 0.036
+            }
+          ]
+        }
+      },
+      {
+        "round": 4,
+        "image": "runs/run2/round4.png",
+        "prompt": "Create this social media post exactly as described: Square (1:1, approx. 1024x1024) text-only social media post on a flat, solid warm cream background with no gradients, textures, images or icons. Everything is left-aligned to a consistent left margin of about 85px, with a matching right margin of about 85px (the yellow bar ends near x=938). Layout from top to bottom: (1) A large, heavy-weight headline in dark teal, set in sentence case over three lines with tight leading: 'New case study:' / 'the AI visibility' / 'audit'. It starts about 95px from the top, and the cap height is roughly 100px. (2) Below the headline, with a gap of about 50px, is a solid mustard-yellow horizontal rectangular bar. It spans the full content width (x\u224885 to x\u2248938), is about 70px tall (y\u2248486 to y\u2248555), and has square corners. (3) Below the bar, a subheading in the same dark teal in a regular/light weight at about half the headline size, set over three lines: 'Building marketing systems' / 'anchored in real customer' / 'behavior'. (4) At the bottom left, a bold lowercase wordmark in dark teal: 'tonishqa.' with a period at the end. It is set in the same bold geometric grotesque as the headline, a bit smaller than the headline (x-height about 45px), and its baseline sits about 75px above the bottom edge. There is no separate logo mark, just the typographic wordmark. All text reads exactly: 'New case study: the AI visibility audit' \u2014 'Building marketing systems anchored in real customer behavior' \u2014 'tonishqa.' The overall feel is clean, minimal, editorial and high-contrast, with generous negative space and a limited three-color palette (cream, dark teal, mustard yellow).",
+        "heard": {
+          "description": "Square (1:1, approx. 1024x1024) social media graphic with a flat, solid warm cream background and no gradients, textures, photos, or icons. All content is left-aligned with a consistent left margin of about 90px (roughly 9% of the width) and sits in a single column, stacked top to bottom in four blocks.\n\n1) Headline (top, starting around y=105 and ending around y=415): three lines of very large, bold, dark teal sans-serif text, tight leading, sentence case, word for word: 'New case study:' / 'the AI visibility' / 'audit'. Cap height is about 100px. The line breaks fall exactly after 'study:' and after 'visibility'. The first line spans nearly the full content width, to about x=880.\n\n2) Accent bar (around y=455 to y=542): a solid, flat, rectangular golden amber/yellow-orange bar with square corners and no outline. It runs from the left margin (x\u224890) to the right margin (x\u2248933), about 843px wide and 87px tall. It acts as a divider between headline and subhead.\n\n3) Subheading (around y=585 to y=790): three lines of regular-weight dark teal sans-serif text, much smaller than the headline (x-height about 35px, font size about 60px), sentence case, word for word: 'Building marketing systems' / 'anchored in real customer' / 'behavior'. Line spacing is relaxed, at about 1.2.\n\n4) Wordmark (bottom-left, baseline around y=905): lowercase 'tonishqa.' in bold dark teal geometric/grotesque sans-serif with a trailing period. It is set at about 80px, noticeably larger and heavier than the subheading and smaller than the headline. It is plain text with no icon or symbol, and the period is part of the brand mark. Bottom margin below the wordmark is about 100px.\n\nOverall style: minimal, editorial, a two-color palette (dark teal and amber) on cream, with generous negative space, strong left alignment, and clear hierarchy of headline > wordmark > subhead.",
+          "font_guess": "Modern neo-grotesque / geometric sans-serif similar to Inter Display, Haffer, S\u00f6hne, or Instrument Sans. The headline and wordmark are Bold/Semibold with tight tracking, and the subheading is Regular weight. Open apertures, a single-story 'a' is NOT used (double-story 'a'), and the 't' has a slanted cut top. A close free alternative is Inter or Plus Jakarta Sans.",
+          "hex_guesses": [
+            "#FDF3E1",
+            "#06454F",
+            "#FAB00D"
+          ]
+        },
+        "drift": {
+          "colors": {
+            "background": {
+              "brand": "#E7E6DC",
+              "closest": "#FDF5E4",
+              "delta_e": 5.0
+            },
+            "accent": {
+              "brand": "#E6B04A",
+              "closest": "#FBB006",
+              "delta_e": 5.9
+            },
+            "text": {
+              "brand": "#2D322F",
+              "closest": "#044149",
+              "delta_e": 13.5
+            }
+          },
+          "mean_delta_e": 8.1,
+          "main_colors": [
+            {
+              "hex": "#FFF4E3",
+              "share": 0.556
+            },
+            {
+              "hex": "#FFF5E3",
+              "share": 0.082
+            },
+            {
+              "hex": "#FBB006",
+              "share": 0.07
+            },
+            {
+              "hex": "#044149",
+              "share": 0.062
+            },
+            {
+              "hex": "#FEF4E3",
+              "share": 0.058
+            },
+            {
+              "hex": "#FFF9E9",
+              "share": 0.047
+            }
+          ]
+        }
+      },
+      {
+        "round": 5,
+        "image": "runs/run2/round5.png",
+        "prompt": "Create this social media post exactly as described: Square (1:1, approx. 1024x1024) social media graphic with a flat, solid warm cream background and no gradients, textures, photos, or icons. All content is left-aligned with a consistent left margin of about 90px (roughly 9% of the width) and sits in a single column, stacked top to bottom in four blocks.\n\n1) Headline (top, starting around y=105 and ending around y=415): three lines of very large, bold, dark teal sans-serif text, tight leading, sentence case, word for word: 'New case study:' / 'the AI visibility' / 'audit'. Cap height is about 100px. The line breaks fall exactly after 'study:' and after 'visibility'. The first line spans nearly the full content width, to about x=880.\n\n2) Accent bar (around y=455 to y=542): a solid, flat, rectangular golden amber/yellow-orange bar with square corners and no outline. It runs from the left margin (x\u224890) to the right margin (x\u2248933), about 843px wide and 87px tall. It acts as a divider between headline and subhead.\n\n3) Subheading (around y=585 to y=790): three lines of regular-weight dark teal sans-serif text, much smaller than the headline (x-height about 35px, font size about 60px), sentence case, word for word: 'Building marketing systems' / 'anchored in real customer' / 'behavior'. Line spacing is relaxed, at about 1.2.\n\n4) Wordmark (bottom-left, baseline around y=905): lowercase 'tonishqa.' in bold dark teal geometric/grotesque sans-serif with a trailing period. It is set at about 80px, noticeably larger and heavier than the subheading and smaller than the headline. It is plain text with no icon or symbol, and the period is part of the brand mark. Bottom margin below the wordmark is about 100px.\n\nOverall style: minimal, editorial, a two-color palette (dark teal and amber) on cream, with generous negative space, strong left alignment, and clear hierarchy of headline > wordmark > subhead.",
+        "heard": {
+          "description": "Square (1:1, approx. 1024x1024 px) social media post with a flat, solid warm cream background and no imagery, gradients, textures or icons. All content is left-aligned along a single left margin of about 80px (about 8% of the width), with roughly the same margin on the right. The layout is a vertical stack of four elements. (1) Headline at the top, starting about 95px from the top edge: three lines of very large, bold, dark teal sans-serif text, sentence case, tight leading, reading exactly 'New case study:' / 'the AI visibility' / 'audit'. The cap height is about 80px and the headline occupies roughly the top 43% of the canvas. The 'N' of 'New' and the 't' of 'the' sit on the left margin. (2) A solid horizontal bar in saturated golden-amber/orange, with sharp square corners, about 865px wide (from x\u224880 to x\u2248944) and about 68px tall (y\u2248481 to y\u2248549). It works as a divider and spans the full content width. (3) Subheadline below the bar: three lines of regular-weight (not bold) dark teal sans-serif text, about 55px size, in sentence case, reading exactly 'Building marketing systems' / 'anchored in real customer' / 'behavior'. Line spacing is about 75px. (4) Wordmark/logo at the bottom left, about 50px from the bottom edge: the lowercase word 'tonishqa' followed by a period, 'tonishqa.', set in a heavy bold geometric/grotesque sans-serif in the same dark teal. It is about the size of the subheadline, slightly larger and much bolder, with tight letter-spacing. The final period is part of the wordmark. There is no separate symbol. The palette is limited to three colors: cream background, dark teal text and wordmark, and amber bar. The overall look is clean, minimal, editorial and modern, with generous margins and strong hierarchy of headline > subhead > wordmark.",
+          "font_guess": "Neo-grotesque / geometric sans-serif similar to Graphik, S\u00f6hne, or Instrument Sans (a close free alternative is 'DM Sans' or 'Inter Tight'). The headline and wordmark use the Bold/Semibold weight, and the subheadline uses the Regular weight.",
+          "hex_guesses": [
+            "#FDF3E0",
+            "#074B57",
+            "#F9AB1F"
+          ]
+        },
+        "drift": {
+          "colors": {
+            "background": {
+              "brand": "#E7E6DC",
+              "closest": "#EAE4D1",
+              "delta_e": 3.8
+            },
+            "accent": {
+              "brand": "#E6B04A",
+              "closest": "#EDAF33",
+              "delta_e": 2.6
+            },
+            "text": {
+              "brand": "#2D322F",
+              "closest": "#02414D",
+              "delta_e": 13.8
+            }
+          },
+          "mean_delta_e": 6.7,
+          "main_colors": [
+            {
+              "hex": "#FEF4E0",
+              "share": 0.521
+            },
+            {
+              "hex": "#FEF4DF",
+              "share": 0.147
+            },
+            {
+              "hex": "#02414D",
+              "share": 0.073
+            },
+            {
+              "hex": "#EDAF33",
+              "share": 0.059
+            },
+            {
+              "hex": "#FFF8E4",
+              "share": 0.05
+            },
+            {
+              "hex": "#FDF4E0",
+              "share": 0.05
+            }
+          ]
+        }
+      }
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "tonishqa.",
+  "wordmark": "the lowercase word 'tonishqa' followed by a period, set in Bricolage Grotesque, no icon",
+  "font": "Bricolage Grotesque for headlines and IBM Plex Sans for body text",
+  "colors": {
+    "background": "#E7E6DC",
+    "accent": "#E6B04A",
+    "text": "#2D322F"
+  },
+  "headline": "New case study: the AI visibility audit",
+  "tagline": "Building marketing systems anchored in real customer behavior.",
+  "post": "A square Instagram post announcing a new case study"
+}

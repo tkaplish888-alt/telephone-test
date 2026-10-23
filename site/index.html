@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Telephone Test</title>
+<meta name="description" content="What happens to a website's look when an AI only ever hears it described.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#E7E6DC;--ink:#22262A;--soft:#5E615C;--rule:#C9C7BC;--cord:#2B3FD6;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 "Schibsted Grotesk",system-ui,sans-serif}
+a{color:var(--cord)} a:focus-visible,summary:focus-visible{outline:2px solid var(--cord);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 clamp(20px,7vw,96px)}
+.mock{background:var(--ink);color:var(--paper);margin:0;padding:10px 16px;text-align:center;font-weight:500}
+header.top{padding:40px 0 0;font-weight:700} header.top a{color:var(--ink);text-decoration:none}
+.hero{padding:72px 0 40px;max-width:720px}
+h1{font-size:clamp(40px,7vw,80px);line-height:.98;letter-spacing:-.035em;font-weight:800;margin:0 0 28px}
+.hero p{font-size:19px;max-width:580px;margin:0;color:var(--soft)}
+.card{display:flex;flex-wrap:wrap;gap:12px 32px;align-items:center;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:18px 0;margin:8px 0 56px}
+.card ul{display:flex;flex-wrap:wrap;gap:8px 24px;list-style:none;margin:0;padding:0}
+.card li{display:flex;align-items:center;gap:8px} .card code{font:inherit;color:var(--soft)}
+.chip{flex-shrink:0;display:inline-block;width:22px;height:22px;border-radius:50%;border:1px solid rgba(34,38,42,.25)}
+h2{font-size:30px;letter-spacing:-.02em;line-height:1.1;margin:0 0 12px}
+h3{font-size:18px;margin:0 0 14px}
+.lede{color:var(--soft);max-width:580px;margin:0 0 28px}
+.run{margin-bottom:40px}
+.strip{position:relative;display:grid;grid-auto-flow:column;grid-auto-columns:minmax(140px,1fr);gap:14px;overflow-x:auto;padding-bottom:12px;scroll-snap-type:x mandatory}
+.strip::before{content:"";position:absolute;left:0;right:0;top:100px;border-top:2px dashed var(--cord);z-index:0}
+.frame{margin:0;position:relative;z-index:1;scroll-snap-align:start}
+.frame img{width:100%;height:auto;display:block;border-radius:6px;background:#fff;box-shadow:0 0 0 1px var(--rule)}
+.round{display:flex;justify-content:space-between;font-weight:700;margin:12px 0 6px} .round span{font-weight:500;color:var(--soft)}
+.drift{list-style:none;padding:0;margin:0 0 8px;font-size:14px}
+.drift li{display:flex;align-items:center;gap:6px;padding:3px 0} .drift li .chip{width:16px;height:16px}
+.drift .arrow{color:var(--soft);font-size:12px} .drift b{font-weight:500;margin-left:auto;white-space:nowrap}
+.font{font-size:14px;margin:0 0 6px;color:var(--soft)}
+details summary{cursor:pointer;font-size:14px;color:var(--cord)} details p{font-size:14px;color:var(--soft)}
+.chart{margin:72px 0 0;max-width:660px} .scroll{overflow-x:auto} @media (max-width:640px){.scroll svg{min-width:560px}} svg{width:100%;height:auto;display:block}
+.grid{stroke:var(--rule);stroke-width:1} .tick{fill:var(--soft);font-size:12px}
+.band{fill:var(--ink);opacity:.06} .bandlabel{fill:var(--soft);font-size:12px} .direct{fill:var(--ink);font-size:13px;font-weight:700}
+.legend{display:flex;gap:20px;font-size:15px;margin-bottom:8px} .legend i{display:inline-block;width:16px;height:3px;vertical-align:middle;margin-right:6px}
+table{border-collapse:collapse;font-size:15px;margin-top:8px} th,td{padding:4px 12px;text-align:right;border-bottom:1px solid var(--rule)}
+.notes{margin:72px 0 0;max-width:620px} .notes p{font-size:18px} .todo{color:#B5462E}
+.method{margin:72px 0 0;max-width:620px;color:var(--soft);font-size:16px}
+footer{margin:72px 0 0;padding:24px 0 48px;border-top:1px solid var(--rule);font-size:15px;color:var(--soft)}
+@media (max-width:640px){.hero{padding:48px 0 32px} .strip{grid-auto-columns:78%} .strip::before{top:38%}}
+@media (prefers-reduced-motion:reduce){.strip{scroll-behavior:auto}}
+</style></head>
+<body>
+
+<div class="wrap">
+<header class="top"><a href="https://tonishqakaplish.com">Tonishqa Kaplish</a></header>
+
+<section class="hero">
+  <h1>I played telephone with my website.</h1>
+  <p>Round one got everything: exact hex codes, the font name, the wordmark. After that, one AI described each post,
+  and another made the next post from that description alone. Five rounds, twice.</p>
+</section>
+
+<div class="card"><strong>The original: tonishqa.</strong><ul><li><span class="chip" style="background:#E7E6DC" aria-hidden="true"></span><span>Background</span><code>#E7E6DC</code></li><li><span class="chip" style="background:#E6B04A" aria-hidden="true"></span><span>Accent</span><code>#E6B04A</code></li><li><span class="chip" style="background:#2D322F" aria-hidden="true"></span><span>Text</span><code>#2D322F</code></li><li><span>Font</span><code>Bricolage Grotesque for headlines and IBM Plex Sans for body text</code></li></ul></div>
+
+<h2>Down the line</h2>
+<p class="lede">Under each post: background, accent and text, the real color next to what showed up, and ΔE, a score for
+how different two colors look. Under 2 is invisible to most people. Over 10 is a different color.</p>
+<section class="run"><h3>Run 1</h3><div class="strip">
+    <figure class="frame">
+      <img src="img/run1-round1.jpg" alt="Round 1 post" loading="lazy" width="900" height="900">
+      <figcaption>
+        <p class="round">Round 1<span>ΔE 5.9</span></p>
+        <ul class="drift"><li title="Background: real vs. found"><span class="chip" style="background:#E7E6DC" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#EFEADF" aria-hidden="true"></span><b>ΔE 2.2</b></li><li title="Accent: real vs. found"><span class="chip" style="background:#E6B04A" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#E1BE7C" aria-hidden="true"></span><b>ΔE 7.3</b></li><li title="Text: real vs. found"><span class="chip" style="background:#2D322F" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#3D3E44" aria-hidden="true"></span><b>ΔE 8.2</b></li></ul>
+        <p class="font">Font heard as: DM Sans</p>
+        <details><summary>What the next round heard</summary><p>Square (1:1, approx. 1024x1024) social media post with a flat, solid warm cream/off-white background, no gradients, textures, images or icons. All content is left-aligned on a consistent left margin of about 88px, with roughly 85-90px of padding on the right. Vertical stack, top to bottom: (1) At the top (baseline around y=165), a lowercase wordmark reading &#x27;tonishqa.&#x27; in a bold/semi-bold geometric-grotesque sans-serif in near-black navy, about 70px tall x-height-wise (cap/ascender height ~80px), with a period at the end acting as part of the logo. There is no symbol or icon, only the text wordmark. (2) Below it, a large headline in three lines, left-aligned, medium/semi-bold weight, tight leading (~125px line spacing), near-black navy, font size around 100-110px: &#x27;New case study:&#x27; / &#x27;the AI visibility&#x27; / &#x27;audit&#x27;. The headline occupies roughly y=265 to y=580. (3) Beneath the headline, a solid flat mustard/amber-yellow horizontal rule/bar, sharp square corners, spanning from x≈88 to x≈938 (about 850px wide) and about 52px thick, located at y≈630-682. (4) Below the bar, a two-line subtitle in a regular-weight (lighter than the headline) sans-serif in near-black navy, about 52px size, with line spacing around 65px, left-aligned: &#x27;Building marketing systems&#x27; / &#x27;anchored in real customer behavior.&#x27; This sits at roughly y=735-855. The bottom ~170px of the canvas is empty cream space. Overall style: minimal, editorial, high-contrast dark text on warm neutral background with a single yellow accent bar.</p></details>
+      </figcaption>
+    </figure>
+    <figure class="frame">
+      <img src="img/run1-round2.jpg" alt="Round 2 post" loading="lazy" width="900" height="900">
+      <figcaption>
+        <p class="round">Round 2<span>ΔE 8.1</span></p>
+        <ul class="drift"><li title="Background: real vs. found"><span class="chip" style="background:#E7E6DC" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#F0E9D8" aria-hidden="true"></span><b>ΔE 3.6</b></li><li title="Accent: real vs. found"><span class="chip" style="background:#E6B04A" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#EBBF55" aria-hidden="true"></span><b>ΔE 4.6</b></li><li title="Text: real vs. found"><span class="chip" style="background:#2D322F" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#031427" aria-hidden="true"></span><b>ΔE 16.1</b></li></ul>
+        <p class="font">Font heard as: Inter</p>
+        <details><summary>What the next round heard</summary><p>Square (1:1, approx. 1024x1024) social media post with a flat, solid warm cream background and no imagery, gradients, textures or icons. All content is left-aligned on a shared left margin of about 88px (about 8.5% of the width), with a right margin of about 85px. The layout is a vertical stack, top to bottom. (1) Wordmark/logo at top-left, around y=105-195: the lowercase text &#x27;tonishqa.&#x27; in bold dark navy geometric sans-serif, with a period at the end. It is about 100px tall with a roughly 70px x-height and tight letter spacing. It is a plain typographic wordmark with no icon. (2) Headline at about y=265-590, three lines, left-aligned, in bold/semibold dark navy sans-serif at about 112px with tight leading (about 120px line height). Line 1: &#x27;New case study:&#x27;. Line 2: &#x27;the AI visibility&#x27;. Line 3: &#x27;audit&#x27;. (3) A flat mustard-yellow horizontal rectangle (accent divider bar) at about y=622-688, from x=86 to x=938 (about 852px wide by 66px tall), with sharp square corners and no outline. (4) Subtitle at about y=735-855, two lines, left-aligned, in regular-weight dark navy sans-serif at about 52px with a line height of about 66px. Line 1: &#x27;Building marketing systems&#x27;. Line 2: &#x27;anchored in real customer behavior&#x27;. The bottom margin below the subtitle is about 170px of empty cream space. The overall style is minimal and editorial, with high contrast between the dark navy text and the cream background, and one yellow accent. Full text in reading order: &#x27;tonishqa.&#x27; / &#x27;New case study: the AI visibility audit&#x27; / &#x27;Building marketing systems anchored in real customer behavior&#x27;.</p></details>
+      </figcaption>
+    </figure>
+    <figure class="frame">
+      <img src="img/run1-round3.jpg" alt="Round 3 post" loading="lazy" width="900" height="900">
+      <figcaption>
+        <p class="round">Round 3<span>ΔE 6.9</span></p>
+        <ul class="drift"><li title="Background: real vs. found"><span class="chip" style="background:#E7E6DC" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#FCF5E3" aria-hidden="true"></span><b>ΔE 4.9</b></li><li title="Accent: real vs. found"><span class="chip" style="background:#E6B04A" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#DAAA43" aria-hidden="true"></span><b>ΔE 2.5</b></li><li title="Text: real vs. found"><span class="chip" style="background:#2D322F" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#49505B" aria-hidden="true"></span><b>ΔE 13.2</b></li></ul>
+        <p class="font">Font heard as: Bricolage Grotesque</p>
+        <details><summary>What the next round heard</summary><p>Square (1:1, approx. 1024x1024) social media post with a flat, solid warm cream background and no imagery, gradients, or textures. All content is left-aligned along a single left margin of roughly 80px, with about 80px of margin at the top and generous empty space at the bottom. Elements from top to bottom: (1) Wordmark at top-left, &#x27;tonishqa.&#x27; in lowercase, bold sans-serif, dark navy, with a period at the end; it is roughly 70-80px tall and sits at about y=90-155. There is no icon, just the typographic wordmark. (2) Large headline in extra-bold/bold dark navy sans-serif, tight line spacing, three lines, left-aligned, about 110px type size, text reading exactly: &#x27;New case study:&#x27; / &#x27;the AI visibility&#x27; / &#x27;audit&#x27;. Line breaks occur after &#x27;study:&#x27; and after &#x27;visibility&#x27;. The headline spans from about y=235 to y=540. (3) A solid mustard/golden-yellow horizontal bar (flat rectangle, no rounded corners, no outline) running from the left margin (x≈80) to the right margin (x≈945), about 50px thick, at y≈592-642. It acts as a divider between the headline and the subtext. (4) Subtext in regular weight (not bold) dark navy sans-serif, about 55-60px, left-aligned, three lines with relaxed line spacing, reading exactly: &#x27;Building marketing systems&#x27; / &#x27;anchored in real customer&#x27; / &#x27;behavior&#x27;. It spans from about y=690 to y=890. Below that is about 130px of empty cream space. Overall style: minimal, editorial, high contrast navy on cream with a single yellow accent. No other text, logos, handles, or decorations.</p></details>
+      </figcaption>
+    </figure>
+    <figure class="frame">
+      <img src="img/run1-round4.jpg" alt="Round 4 post" loading="lazy" width="900" height="900">
+      <figcaption>
+        <p class="round">Round 4<span>ΔE 7.1</span></p>
+        <ul class="drift"><li title="Background: real vs. found"><span class="chip" style="background:#E7E6DC" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#FCF4DD" aria-hidden="true"></span><b>ΔE 6.1</b></li><li title="Accent: real vs. found"><span class="chip" style="background:#E6B04A" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#EAB42E" aria-hidden="true"></span><b>ΔE 3.7</b></li><li title="Text: real vs. found"><span class="chip" style="background:#2D322F" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#454F57" aria-hidden="true"></span><b>ΔE 11.6</b></li></ul>
+        <p class="font">Font heard as: Plus Jakarta Sans</p>
+        <details><summary>What the next round heard</summary><p>Square (1:1, approx. 1024x1024 px) social media post with a flat, solid warm cream background and no imagery, gradients, textures, or icons. All content is left-aligned along a single left margin of about 90px, with roughly 90px of margin on the right. Elements stack vertically from top to bottom. (1) Wordmark at top-left, around y=90-155: &#x27;tonishqa.&#x27; in lowercase, bold dark navy, with a period at the end. It is the logo and has no icon. Cap height is small relative to the headline (x-height about 40px). (2) Headline, starting around y=235 and ending around y=535, set across three lines in very large, heavy/extra-bold dark navy sans-serif type with tight letter spacing and tight leading: &#x27;New case study:&#x27; / &#x27;the AI visibility&#x27; / &#x27;audit&#x27;. Each line is about 120px tall. The text is sentence case and the colon follows &#x27;study&#x27;. (3) Accent bar: a solid flat mustard/golden-yellow rectangle with sharp corners and no rounding. It spans from the left margin (x≈90) to the right margin (x≈935), is about 65px tall, and sits at about y=580-645. (4) Subheadline below the bar, around y=695-900, in three lines of regular/medium-weight dark navy sans-serif, much smaller than the headline (about 60-65px font size), with tight leading: &#x27;Building marketing systems&#x27; / &#x27;anchored in real customer&#x27; / &#x27;behavior&#x27;. The text is sentence case with no end punctuation. There is generous empty space at the bottom (about 100px). The overall look is minimal, editorial, and high-contrast, with a two-color palette of navy and yellow on cream.</p></details>
+      </figcaption>
+    </figure>
+    <figure class="frame">
+      <img src="img/run1-round5.jpg" alt="Round 5 post" loading="lazy" width="900" height="900">
+      <figcaption>
+        <p class="round">Round 5<span>ΔE 10.1</span></p>
+        <ul class="drift"><li title="Background: real vs. found"><span class="chip" style="background:#E7E6DC" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#FAF4E6" aria-hidden="true"></span><b>ΔE 4.0</b></li><li title="Accent: real vs. found"><span class="chip" style="background:#E6B04A" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#DBC587" aria-hidden="true"></span><b>ΔE 10.7</b></li><li title="Text: real vs. found"><span class="chip" style="background:#2D322F" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#1C2C46" aria-hidden="true"></span><b>ΔE 15.5</b></li></ul>
+        <p class="font">Font heard as: Plus Jakarta Sans</p>
+        <details><summary>What the next round heard</summary><p>Square (1:1, approx. 1024x1024px) social media post with a flat, solid cream background and no imagery, gradients, or textures. All content is left-aligned on a consistent left margin of about 75px, with roughly 75px of padding at the right. The layout is a vertical stack, top to bottom. (1) Wordmark at top-left, about y=80-140: the lowercase text &#x27;tonishqa.&#x27; in bold dark navy geometric sans-serif, with a period at the end. It is about 50px tall at x-height scale and is the smallest of the bold text elements. This is a text-only wordmark with no icon. (2) Headline, starting about y=200 and ending about y=545: &#x27;New case study: the AI visibility audit&#x27; in very large, heavy/extra-bold dark navy sans-serif with tight letter-spacing and tight leading. It breaks across three lines: &#x27;New case study:&#x27; / &#x27;the AI visibility&#x27; / &#x27;audit&#x27;. Cap height is roughly 100px and the type is sentence case. (3) Accent bar, about y=590-647: a solid horizontal mustard-yellow rectangle with square corners, spanning from the left margin (x≈75) to the right margin (x≈950), about 57px tall. (4) Subtext, about y=690-900: &#x27;Building marketing systems anchored in real customer behavior&#x27; in regular-weight dark navy sans-serif, about 60-65px, left-aligned, in sentence case with no period. It breaks across three lines: &#x27;Building marketing systems&#x27; / &#x27;anchored in real customer&#x27; / &#x27;behavior&#x27;. Line spacing is about 1.3. Bottom margin is about 120px of empty cream space. The overall look is minimal, editorial, and high-contrast, with a two-color palette (navy text, yellow accent) on cream.</p></details>
+      </figcaption>
+    </figure></div></section><section class="run"><h3>Run 2</h3><div class="strip">
+    <figure class="frame">
+      <img src="img/run2-round1.jpg" alt="Round 1 post" loading="lazy" width="900" height="900">
+      <figcaption>
+        <p class="round">Round 1<span>ΔE 19.0</span></p>
+        <ul class="drift"><li title="Background: real vs. found"><span class="chip" style="background:#E7E6DC" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#EFEADF" aria-hidden="true"></span><b>ΔE 2.2</b></li><li title="Accent: real vs. found"><span class="chip" style="background:#E6B04A" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#89805F" aria-hidden="true"></span><b>ΔE 23.8</b></li><li title="Text: real vs. found"><span class="chip" style="background:#2D322F" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#89805F" aria-hidden="true"></span><b>ΔE 30.9</b></li></ul>
+        <p class="font">Font heard as: Cabinet Grotesk</p>
+        <details><summary>What the next round heard</summary><p>Square (1:1, approx. 1024x1024) social media post with a flat, solid warm cream background and no gradients, textures, photos, or icons. All content is left-aligned on a shared left margin of about 90px (about 9% of the width), with roughly 90px of right margin. The layout is a vertical stack of four elements.
+
+1) Headline, top. Large, bold, dark teal-charcoal sans-serif text on three lines, sentence case, word for word: &#x27;New case study:&#x27; / &#x27;the AI visibility&#x27; / &#x27;audit&#x27;. Cap height is roughly 85px and line spacing is tight, at about 1.15x. The first line starts at about y=130 and the last line ends at about y=455. The text is heavy-semibold weight, with tight, slightly negative letter-spacing.
+
+2) Accent bar, at about y=507 to y=562. A solid, flat, mustard/golden-yellow rectangle with square corners, no outline or shadow. It runs from the left margin (x≈90) to about x≈935, so it is about 845px wide and about 55px tall.
+
+3) Subtitle, below the bar. Regular-weight, dark teal-charcoal sans-serif text on two lines, word for word: &#x27;Building marketing systems&#x27; / &#x27;anchored in real customer behavior.&#x27; The size is much smaller than the headline, with x-height around 30px, or about 52px font size. It spans from x≈90 to about x≈980 on the second line. Line spacing is about 1.25x. It sits at about y=610 to y=730.
+
+4) Wordmark/logo, bottom left, at about y=835 to y=920. The lowercase text &#x27;tonishqa.&#x27; in a bold, dark teal-charcoal geometric/grotesque sans-serif, ending in a period (full stop). It is larger than the subtitle but smaller than the headline, at about 80px. It has no icon or symbol, only the text wordmark. The bottom margin is about 100px.
+
+Overall style: minimal, editorial, and brand-consistent, with a two-color text and accent palette on a cream field, generous whitespace, and strong left alignment.</p></details>
+      </figcaption>
+    </figure>
+    <figure class="frame">
+      <img src="img/run2-round2.jpg" alt="Round 2 post" loading="lazy" width="900" height="900">
+      <figcaption>
+        <p class="round">Round 2<span>ΔE 9.6</span></p>
+        <ul class="drift"><li title="Background: real vs. found"><span class="chip" style="background:#E7E6DC" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#FBF3E3" aria-hidden="true"></span><b>ΔE 4.6</b></li><li title="Accent: real vs. found"><span class="chip" style="background:#E6B04A" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#DFC279" aria-hidden="true"></span><b>ΔE 8.1</b></li><li title="Text: real vs. found"><span class="chip" style="background:#2D322F" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#26565E" aria-hidden="true"></span><b>ΔE 16.1</b></li></ul>
+        <p class="font">Font heard as: Plus Jakarta Sans</p>
+        <details><summary>What the next round heard</summary><p>Square (1:1, approx. 1024x1024) social media post with a flat, solid warm cream background and no imagery, gradients, textures or icons. All content is left-aligned on a consistent left margin of about 88px, with a right margin of about 88px (the yellow bar ends at about x=936). Vertical stack from top to bottom: (1) A large, bold headline set in three lines, in dark teal, tightly leaded, with the text exactly: &#x27;New case study:&#x27; / &#x27;the AI visibility&#x27; / &#x27;audit&#x27;. The headline starts around y=95 and ends around y=430, with a cap height of roughly 90px (font size about 120px). Only the first word &#x27;New&#x27; and the &#x27;AI&#x27; are capitalized; the rest is sentence case, and the colon follows &#x27;study&#x27;. (2) A solid mustard/golden-yellow horizontal rectangle (a divider bar) with sharp square corners, spanning from x≈88 to x≈936 (about 848px wide) and from y≈477 to y≈553 (about 76px tall). (3) A subheadline in regular weight (not bold), dark teal, in two lines, about 54px font size, with the exact text: &#x27;Building marketing systems&#x27; / &#x27;anchored in real customer behavior&#x27;. It sits at about y=595 to y=720. (4) At the bottom left, around y=830 to y=930, the wordmark/logo &#x27;tonishqa.&#x27; in lowercase, bold, dark teal, about 90px font size, ending in a period (full stop) as part of the wordmark. The wordmark is the same typeface and teal color as the headline, with no icon or symbol alongside it. There is generous empty space at the bottom (about 95px) and to the right of the wordmark. The overall style is minimal, editorial and modern, with a two-tone palette (teal + mustard) on cream.</p></details>
+      </figcaption>
+    </figure>
+    <figure class="frame">
+      <img src="img/run2-round3.jpg" alt="Round 3 post" loading="lazy" width="900" height="900">
+      <figcaption>
+        <p class="round">Round 3<span>ΔE 8.0</span></p>
+        <ul class="drift"><li title="Background: real vs. found"><span class="chip" style="background:#E7E6DC" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#F6EFE1" aria-hidden="true"></span><b>ΔE 3.6</b></li><li title="Accent: real vs. found"><span class="chip" style="background:#E6B04A" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#ECC957" aria-hidden="true"></span><b>ΔE 8.1</b></li><li title="Text: real vs. found"><span class="chip" style="background:#2D322F" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#043944" aria-hidden="true"></span><b>ΔE 12.4</b></li></ul>
+        <p class="font">Font heard as: Instrument Sans</p>
+        <details><summary>What the next round heard</summary><p>Square (1:1, approx. 1024x1024) text-only social media post on a flat, solid warm cream background with no gradients, textures, images or icons. Everything is left-aligned to a consistent left margin of about 85px, with a matching right margin of about 85px (the yellow bar ends near x=938). Layout from top to bottom: (1) A large, heavy-weight headline in dark teal, set in sentence case over three lines with tight leading: &#x27;New case study:&#x27; / &#x27;the AI visibility&#x27; / &#x27;audit&#x27;. It starts about 95px from the top, and the cap height is roughly 100px. (2) Below the headline, with a gap of about 50px, is a solid mustard-yellow horizontal rectangular bar. It spans the full content width (x≈85 to x≈938), is about 70px tall (y≈486 to y≈555), and has square corners. (3) Below the bar, a subheading in the same dark teal in a regular/light weight at about half the headline size, set over three lines: &#x27;Building marketing systems&#x27; / &#x27;anchored in real customer&#x27; / &#x27;behavior&#x27;. (4) At the bottom left, a bold lowercase wordmark in dark teal: &#x27;tonishqa.&#x27; with a period at the end. It is set in the same bold geometric grotesque as the headline, a bit smaller than the headline (x-height about 45px), and its baseline sits about 75px above the bottom edge. There is no separate logo mark, just the typographic wordmark. All text reads exactly: &#x27;New case study: the AI visibility audit&#x27; — &#x27;Building marketing systems anchored in real customer behavior&#x27; — &#x27;tonishqa.&#x27; The overall feel is clean, minimal, editorial and high-contrast, with generous negative space and a limited three-color palette (cream, dark teal, mustard yellow).</p></details>
+      </figcaption>
+    </figure>
+    <figure class="frame">
+      <img src="img/run2-round4.jpg" alt="Round 4 post" loading="lazy" width="900" height="900">
+      <figcaption>
+        <p class="round">Round 4<span>ΔE 8.1</span></p>
+        <ul class="drift"><li title="Background: real vs. found"><span class="chip" style="background:#E7E6DC" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#FDF5E4" aria-hidden="true"></span><b>ΔE 5.0</b></li><li title="Accent: real vs. found"><span class="chip" style="background:#E6B04A" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#FBB006" aria-hidden="true"></span><b>ΔE 5.9</b></li><li title="Text: real vs. found"><span class="chip" style="background:#2D322F" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#044149" aria-hidden="true"></span><b>ΔE 13.5</b></li></ul>
+        <p class="font">Font heard as: Inter Display</p>
+        <details><summary>What the next round heard</summary><p>Square (1:1, approx. 1024x1024) social media graphic with a flat, solid warm cream background and no gradients, textures, photos, or icons. All content is left-aligned with a consistent left margin of about 90px (roughly 9% of the width) and sits in a single column, stacked top to bottom in four blocks.
+
+1) Headline (top, starting around y=105 and ending around y=415): three lines of very large, bold, dark teal sans-serif text, tight leading, sentence case, word for word: &#x27;New case study:&#x27; / &#x27;the AI visibility&#x27; / &#x27;audit&#x27;. Cap height is about 100px. The line breaks fall exactly after &#x27;study:&#x27; and after &#x27;visibility&#x27;. The first line spans nearly the full content width, to about x=880.
+
+2) Accent bar (around y=455 to y=542): a solid, flat, rectangular golden amber/yellow-orange bar with square corners and no outline. It runs from the left margin (x≈90) to the right margin (x≈933), about 843px wide and 87px tall. It acts as a divider between headline and subhead.
+
+3) Subheading (around y=585 to y=790): three lines of regular-weight dark teal sans-serif text, much smaller than the headline (x-height about 35px, font size about 60px), sentence case, word for word: &#x27;Building marketing systems&#x27; / &#x27;anchored in real customer&#x27; / &#x27;behavior&#x27;. Line spacing is relaxed, at about 1.2.
+
+4) Wordmark (bottom-left, baseline around y=905): lowercase &#x27;tonishqa.&#x27; in bold dark teal geometric/grotesque sans-serif with a trailing period. It is set at about 80px, noticeably larger and heavier than the subheading and smaller than the headline. It is plain text with no icon or symbol, and the period is part of the brand mark. Bottom margin below the wordmark is about 100px.
+
+Overall style: minimal, editorial, a two-color palette (dark teal and amber) on cream, with generous negative space, strong left alignment, and clear hierarchy of headline &gt; wordmark &gt; subhead.</p></details>
+      </figcaption>
+    </figure>
+    <figure class="frame">
+      <img src="img/run2-round5.jpg" alt="Round 5 post" loading="lazy" width="900" height="900">
+      <figcaption>
+        <p class="round">Round 5<span>ΔE 6.7</span></p>
+        <ul class="drift"><li title="Background: real vs. found"><span class="chip" style="background:#E7E6DC" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#EAE4D1" aria-hidden="true"></span><b>ΔE 3.8</b></li><li title="Accent: real vs. found"><span class="chip" style="background:#E6B04A" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#EDAF33" aria-hidden="true"></span><b>ΔE 2.6</b></li><li title="Text: real vs. found"><span class="chip" style="background:#2D322F" aria-hidden="true"></span><span class="arrow">→</span><span class="chip" style="background:#02414D" aria-hidden="true"></span><b>ΔE 13.8</b></li></ul>
+        <p class="font">Font heard as: Graphik</p>
+        <details><summary>What the next round heard</summary><p>Square (1:1, approx. 1024x1024 px) social media post with a flat, solid warm cream background and no imagery, gradients, textures or icons. All content is left-aligned along a single left margin of about 80px (about 8% of the width), with roughly the same margin on the right. The layout is a vertical stack of four elements. (1) Headline at the top, starting about 95px from the top edge: three lines of very large, bold, dark teal sans-serif text, sentence case, tight leading, reading exactly &#x27;New case study:&#x27; / &#x27;the AI visibility&#x27; / &#x27;audit&#x27;. The cap height is about 80px and the headline occupies roughly the top 43% of the canvas. The &#x27;N&#x27; of &#x27;New&#x27; and the &#x27;t&#x27; of &#x27;the&#x27; sit on the left margin. (2) A solid horizontal bar in saturated golden-amber/orange, with sharp square corners, about 865px wide (from x≈80 to x≈944) and about 68px tall (y≈481 to y≈549). It works as a divider and spans the full content width. (3) Subheadline below the bar: three lines of regular-weight (not bold) dark teal sans-serif text, about 55px size, in sentence case, reading exactly &#x27;Building marketing systems&#x27; / &#x27;anchored in real customer&#x27; / &#x27;behavior&#x27;. Line spacing is about 75px. (4) Wordmark/logo at the bottom left, about 50px from the bottom edge: the lowercase word &#x27;tonishqa&#x27; followed by a period, &#x27;tonishqa.&#x27;, set in a heavy bold geometric/grotesque sans-serif in the same dark teal. It is about the size of the subheadline, slightly larger and much bolder, with tight letter-spacing. The final period is part of the wordmark. There is no separate symbol. The palette is limited to three colors: cream background, dark teal text and wordmark, and amber bar. The overall look is clean, minimal, editorial and modern, with generous margins and strong hierarchy of headline &gt; subhead &gt; wordmark.</p></details>
+      </figcaption>
+    </figure></div></section>
+
+<section class="chart">
+  <h2>How far the colors moved</h2>
+  <p class="lede">Average ΔE across the three colors, round by round.</p>
+  
+    <div class="legend"><span><i style="background:#2B3FD6"></i>Run 1</span><span><i style="background:#B5462E"></i>Run 2</span></div>
+    <div class="scroll"><svg viewBox="0 0 640 300" role="img" aria-label="Average color drift by round for each run"><rect x="44" y="235.6" width="556" height="24.4" class="band"/><text x="594" y="229.6" text-anchor="end" class="bandlabel">Below 2, most people can't see a difference</text><line x1="44" x2="600" y1="260.0" y2="260.0" class="grid"/><text x="36" y="264.0" text-anchor="end" class="tick">0</text><line x1="44" x2="600" y1="199.0" y2="199.0" class="grid"/><text x="36" y="203.0" text-anchor="end" class="tick">5</text><line x1="44" x2="600" y1="138.0" y2="138.0" class="grid"/><text x="36" y="142.0" text-anchor="end" class="tick">10</text><line x1="44" x2="600" y1="77.0" y2="77.0" class="grid"/><text x="36" y="81.0" text-anchor="end" class="tick">15</text><line x1="44" x2="600" y1="16.0" y2="16.0" class="grid"/><text x="36" y="20.0" text-anchor="end" class="tick">20</text><text x="44.0" y="280" text-anchor="middle" class="tick">Round 1</text><text x="183.0" y="280" text-anchor="middle" class="tick">Round 2</text><text x="322.0" y="280" text-anchor="middle" class="tick">Round 3</text><text x="461.0" y="280" text-anchor="middle" class="tick">Round 4</text><text x="600.0" y="280" text-anchor="middle" class="tick">Round 5</text><polyline fill="none" stroke="#2B3FD6" stroke-width="2" points="44.0,188.0 183.0,161.2 322.0,175.8 461.0,173.4 600.0,136.8"/><circle cx="44.0" cy="188.0" r="5" fill="#2B3FD6" stroke="var(--paper)" stroke-width="2"><title>Run 1, round 1: mean ΔE 5.9</title></circle><circle cx="183.0" cy="161.2" r="5" fill="#2B3FD6" stroke="var(--paper)" stroke-width="2"><title>Run 1, round 2: mean ΔE 8.1</title></circle><circle cx="322.0" cy="175.8" r="5" fill="#2B3FD6" stroke="var(--paper)" stroke-width="2"><title>Run 1, round 3: mean ΔE 6.9</title></circle><circle cx="461.0" cy="173.4" r="5" fill="#2B3FD6" stroke="var(--paper)" stroke-width="2"><title>Run 1, round 4: mean ΔE 7.1</title></circle><circle cx="600.0" cy="136.8" r="5" fill="#2B3FD6" stroke="var(--paper)" stroke-width="2"><title>Run 1, round 5: mean ΔE 10.1</title></circle><text x="592.0" y="124.8" text-anchor="end" class="direct">Run 1</text><polyline fill="none" stroke="#B5462E" stroke-width="2" points="44.0,28.2 183.0,142.9 322.0,162.4 461.0,161.2 600.0,178.3"/><circle cx="44.0" cy="28.2" r="5" fill="#B5462E" stroke="var(--paper)" stroke-width="2"><title>Run 2, round 1: mean ΔE 19.0</title></circle><circle cx="183.0" cy="142.9" r="5" fill="#B5462E" stroke="var(--paper)" stroke-width="2"><title>Run 2, round 2: mean ΔE 9.6</title></circle><circle cx="322.0" cy="162.4" r="5" fill="#B5462E" stroke="var(--paper)" stroke-width="2"><title>Run 2, round 3: mean ΔE 8.0</title></circle><circle cx="461.0" cy="161.2" r="5" fill="#B5462E" stroke="var(--paper)" stroke-width="2"><title>Run 2, round 4: mean ΔE 8.1</title></circle><circle cx="600.0" cy="178.3" r="5" fill="#B5462E" stroke="var(--paper)" stroke-width="2"><title>Run 2, round 5: mean ΔE 6.7</title></circle><text x="592.0" y="166.3" text-anchor="end" class="direct">Run 2</text></svg></div>
+    <details class="table"><summary>See the numbers</summary>
+      <table><thead><tr><th></th><th>Round 1</th><th>Round 2</th><th>Round 3</th><th>Round 4</th><th>Round 5</th></tr></thead><tbody><tr><th>Run 1</th><td>5.9</td><td>8.1</td><td>6.9</td><td>7.1</td><td>10.1</td></tr><tr><th>Run 2</th><td>19.0</td><td>9.6</td><td>8.0</td><td>8.1</td><td>6.7</td></tr></tbody></table></details>
+</section>
+
+<section class="notes"><h2>What I noticed</h2><p>Even on the first try, with my exact color codes and font name in the prompt, the AI changed my soft charcoal text to plain black and swapped my font for a generic sans. The yellow came closest, but it shifted from round to round.</p><p>The font was never right. Not once in ten rounds did it look like Bricolage Grotesque. When the AI described my posts, it named Bricolage once as a guess and otherwise reached for Inter, Plus Jakarta Sans and DM Sans, the fonts most AI posts already use.</p><p>The two runs failed in different ways. One kept my layout but drifted on color. The other chased the color and lost the layout, even putting things in the wrong order. Its color scores improved while the post itself looked worse, which is a good reminder that a number only measures what you point it at.</p></section>
+
+<section class="method"><h2>How it was made</h2>
+<p>Images by gpt-image-1, descriptions by claude-sonnet-5-5. For each post I pulled the colors that
+cover at least half a percent of the image and matched each real color to its closest one, using CIEDE2000 for ΔE.
+Fonts are as named by the describing model, so treat them as what it heard, not ground truth.
+Two runs is a small sample; this is a quick experiment, not a study.</p></section>
+
+<footer>Built in an evening by Tonishqa Kaplish. <a href="https://tonishqakaplish.com">tonishqakaplish.com</a></footer>
+</div></body></html>
